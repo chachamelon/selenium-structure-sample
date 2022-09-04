@@ -16,7 +16,8 @@ public class App {
         TestNG testng = new TestNG();
         List<String> suites = Lists.newArrayList();
         suites.add("./app/src/main/resources/login/login.xml");//path to xml..
-        suites.add("./app/src/main/resources/mail/mail.xml");
+        suites.add("./app/src/main/resources/menu/search.xml");
+        suites.add("./app/src/main/resources/menu/update.xml");
         testng.setTestSuites(suites);
         testng.run();
     }
