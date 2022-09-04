@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Mail">
+    <test name="ReadMail test">
+        <classes>
+            <class name="selenium.structure.sample.mail.ReadMail">
+            </class>
+        </classes>
+    </test>
+    <test name="WriteMail test">
+        <classes>
+            <class name="selenium.structure.sample.mail.WriteMail">
+            </class>
+        </classes>
+    </test>
+</suite>
